@@ -1,3 +1,4 @@
+
 document.getElementById("div").style.display ="none";//リザルト画面の非表示（最初から表示する必要がないから）
 
 const quiz =[//問題
@@ -48,14 +49,7 @@ const quiz =[//問題
     ],
     [
         'August','～しよう','人々','hear','heard','やめる、断念する','特に','役に立つ','成長する','opinion','be interested in ～ ','妻','以前、一度','おもしろい、興味を起こさせる','…に～するように促す','どのくらいの年の、いくつの','uniform','swim','speak','until','juice','sing','leave','～を保てなくなる、負ける','remember','solve','けっして～ない','～をそうじする','うれしい','take care of ～','snow','満面の笑みで','…を招く、招待する','look forward to …','店員','助け、救助','～を意味する','～として、〜のために、〜の間','birthday','食事','buy','bought','spring','子供たち[child の複数形]','あなたはどうですか？','鳥','sell','sold','dream','would like to','いらっしゃいませ','Aに代わっていただけませんか','ご自由にお召し上がりください'
-    ],
-    // [
-
-    // ],
-    // [
-
-    // ]
-
+    ]
 ]
 console.log(quiz[quiz.length-1])
 
