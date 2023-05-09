@@ -28,6 +28,9 @@
             text-align: center;
             padding: 10px 0;
             margin:  0 auto; 
+            font-size: 25px;
+            color: #ffff;
+            text-decoration: none;
         }
         @media screen and (min-width:750px) {/*利用端末がタブレットやパソコンだった場合*/
             img{
@@ -45,7 +48,10 @@
 </head>
 <body>
     <h1>教材一覧</h1>
-    <div id="main"></div>
+    <a href="中学英語/menu.html"><button type="button" class="btn-danger"><li>高校受験対策英単語</li></button></a>
+    <!-- <a href="高校英語/menu.html"><button><li>高校以上向け英単語</li></button></a> -->
+    <a href="http://27.110.35.148/univsrch/ex/menu/index.html"><button type="button" class="btn-primary"><li>大学入試過去問</li></button></a>
+    <!-- <a href="#"><button><li>学習教材</li></button></a> -->
     <hr>
     <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333;">
         <p>⚠️注意<br>
@@ -54,27 +60,5 @@
             PAS:123456789
         </p>
     </div>
-    <script>
-        const main = document.getElementById("main")
-        let URLlist=["中学英語/menu.html",/*"高校英語/menu.html",*/"http://27.110.35.148/univsrch/ex/menu/index.html","#","#"]
-        let bootbuttonlist=["btn-primary","btn-secondary","btn-success","btn-danger","btn-warning","btn-info","btn-light","btn-dark"]
-        let sentence=["高校受験対策英単語",/*"高校生以上向け英単語",*/"大学入試過去問",/*"学習教材（作成中）"*/]
-        let $li=[],$img=[],$button=[]
-        for(i=0;i<sentence.length;i++){
-            $li[i]=document.createElement('li')
-            $a=document.createElement('a')
-            $a.href=URLlist[i]
-            $button[i]=document.createElement('button')
-            $button[i].textContent=sentence[i]
-            $button[i].style.fontSize="25px"
-            $button[i].style.margin="0 auto"
-            $button[i].className="btn"+" "+bootbuttonlist[i]
-            $li[i].append($a)
-            $a.append($button[i])
-            main.appendChild($li[i])
-        }
-        console.log(main)
-        
-    </script>
 </body>
 </html>
