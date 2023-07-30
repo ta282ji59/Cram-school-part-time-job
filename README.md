@@ -11,12 +11,15 @@
 # 概要
 #### ○これがアプリのクイズ画面です。
 (https://todorokitai.github.io/Main/%E4%B8%AD%E5%AD%A6%E8%8B%B1%E8%AA%9E/section.html?0)
+
 <img src="png/デモ1.PNG" width="250px" height="358px">
 
 #### ○「分かった」をクリックすると以下の画面が表示されます。
+
 <img src="png/デモ2.PNG" width="250px" height="358px">
 
 #### ○「分からない」をクリックすると以下の画面が表示されます。
+
 <img src="png/デモ3.PNG" width="250px" height="358px">
 
 #### ○クイズを一通り終わらせる、または「やめる」をクリックすると以下のリザルト画面が表示されます。
