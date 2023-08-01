@@ -7,7 +7,6 @@
 
 # 使用言語
 <img src="https://skillicons.dev/icons?i=html,css,javascript">
-
 # 概要
 #### ○これがアプリのクイズ画面です。
 (https://todorokitai.github.io/Main/%E4%B8%AD%E5%AD%A6%E8%8B%B1%E8%AA%9E/section.html?0)
