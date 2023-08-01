@@ -6,7 +6,7 @@
 ###### ※当時、Githubの使い方に慣れていなく、かつこれのサイトのURLを当時の塾の生徒に渡してしまったりの状態で、あまりディレクトリ構造が変更できないのが欠点。
 
 # 使用言語
-<img src="https://skillicons.dev/icons?i=html,css,javaScript">
+<img src="https://skillicons.dev/icons?i=html,css,javascript">
 
 # 概要
 #### ○これがアプリのクイズ画面です。
